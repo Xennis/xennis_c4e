@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+    <!--
+     * @author       Fabi Rosenthal
+     * @website      http://xennis.de
+     * @design       xennis_c4e (v1.01)
+     * @copyright    Copyright (C) 2011 Fabian Rosenthal
+    -->
+
+    <title>Xennis</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- meta -->    
+    <meta charset="UTF-8">
+    <meta name="author"       content="Fabi Rosenthal">
+    <meta name="description"  content="A beautiful web design!">
+    <meta name="keywords"     content="Xennis,Web,Design,Webdesign,Rosenthal,Fabi">
+    <meta name="robots"       content="index, follow">
+
+    <!-- scripts: typeface -->
+    <script type="text/javascript" src="scripts/js/typeface-0.15.min.js"></script>
+    <script type="text/javascript" src="scripts/js/typeface.brook_23.js"></script>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/position.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/personal.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/special.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/special_plugins.css">
+    <!--[if IE]><link rel="stylesheet" type="text/css" media="screen,projection" href="css/special_ie.css"><![endif]-->
+
+    <!-- scripts: jquery + plugins -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery-ui-1.8.11.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.queryloader.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.fullscreenr.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.anythingzoomer.min.js"></script>
+
+    <!-- scripts: main -->
+    <script type="text/javascript" src="scripts/js/content.min.js"></script>
+    <script type="text/javascript" src="scripts/js/layout.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- background image -->
+    <div id="backgroundImage"><img src="images/background/image4.jpg" alt="Background image"></div><!-- end background image -->
+
+    <!-- header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="javascript:showArticle('#home');">Home</a></li>
+                <li><a href="javascript:showArticle('#about');">About</a></li>
+                <li><a href="javascript:showArticle('#designer');">Designer</a></li>
+                <li><a href="javascript:showArticle('#work');">Work</a></li>
+                <li><a href="javascript:showArticle('#contacts');">Contacts</a></li>
+            </ul>
+        </nav>
+        <div id="label">Navigation</div>
+    </header><!-- end header -->
+
+    <!-- style -->
+    <div id="style">Your Style
+        <menu id="boxImage">
+            <li id="image1"></li>
+            <li id="image2"></li>
+            <li id="image3"></li>
+            <li id="image4"></li>
+        </menu>
+        <menu id="boxColor">
+            <li id="color1"></li>
+            <li id="color2"></li>
+            <li id="color3"></li>
+            <li id="color4"></li>
+       </menu>
+    </div><!-- end style -->
+
+    <!-- articles -->
+    <div id="articles">
+
+        <!-- article "home" -->
+        <article id="home">
+            <menu class="typeface-js">
+                <li id="closeHome" title="Close">X</li>
+                <li id="sizeHome" title="Minimize">M</li>
+            </menu>
+            <h1>Welcome</h1>
+            <div class="text">
+                <p>Welcome to my website! Explore the site: You can change the background image and colors ... resize, drag and minimize the articles ... and much more. This is not a old static site, so you can do a lot of interactive things!</p>
+                <p>Have fun!</p>
+                <h2>Requirements</h2>
+                <p>You need the <mark class="u">latest version</mark> of your web browser to enjoy the beauty of this web design! Older versions do not support new web standards like HTML5 or CSS3. You will get better results (speed, animation, font, ...) if you use Firefox, Chrome, Opera, Safari, etc. and not Internet Explorer.</p>
+                <p>Please report all bugs.</p>
+            </div>
+        </article><!-- end article -->
+ 
+        <!-- article "about" -->
+        <article id="about">
+            <menu class="typeface-js">
+                <li id="closeAbout" title="Close">X</li>
+                <li id="sizeAbout" title="Minimize">M</li>
+            </menu>
+            <h1>About</h1>
+            <div class="text">
+                <p>This site is written in HTML5 and CSS3. I used <a href="http://jquery.com" target="_blank">jQuery</a> (v1.5.1) and <a href="http://jqueryui.com" target="_blank">jQuery user interface</a> (v1.8.11) as JavaScript framework.</p>
+                <ul class="listLogos">
+                    <li><img src="images/logos/html5.png" alt="HTML5 logo" title="HTML5" width="32" height="32"></li>
+                    <li><img src="images/logos/css3.png" alt="CSS3 logo" title="CSS3" width="33" height="30"></li>
+                    <li><a href="http://jquery.com" target="_blank"><img src="images/logos/jquery.png" alt="jQuery logo" title="jQuery" width="121" height="30"></a></li>
+                    <li><a href="http://jqueryui.com" target="_blank"><img src="images/logos/jquery_ui.png" alt="jQuery UI logo" title="jQuery UI" width="124" height="30"></a></li>
+                </ul>
+                <h2>jQuery plugins and tutorials</h2>
+                <ul>
+                    <li><a href="http://www.gayadesign.com/diy/queryloader-preload-your-website-in-style/" target="_blank">QueryLoader</a> (v1.0) written by <mark class="i">Gaya Kessler</mark></li>
+                    <li><a href="http://nanotux.com/blog/fullscreen/" target="_blank">Fullscreenr</a> (v1.0) written by <mark class="i">Jan Schneiders</mark></li>
+                    <li><a href="http://jqueryglobe.com/article/animated-menu" target="_blank">Animated Menu</a> published by <mark class="i">jQueryGlobe</mark></li>
+                    <li><a href="http://jscrollpane.kelvinluck.com" target="_blank">jScrollPane</a> (v2.0.0.beta9) written by <mark class="i">Kelvin Luck</mark></li>
+                    <li><a href="http://brandonaaron.net/code/mousewheel/docs" target="_blank">Mousewheel</a> (v3.0.4) written by <mark class="i">Brandon Aaron</mark></li>
+                    <li><a href="http://css-tricks.com/anythingzoomer-jquery-plugin/" target="_blank">AnythingZoomer</a> (v1.0) written by <mark class="i">Chris Coyier</mark></li>
+                </ul>
+                <h2>Images</h2>
+                <p>The beautiful background images are from the multi-media platform <a href="http://www.pixelio.de" target="_blank">Pixelio</a>. Thanks to the great photographers!</p>
+                <ul>
+                    <li><a href="http://www.pixelio.de/details.php?image_id=291716" target="_blank">"Dreckschleuder"</a> photographed by <mark class="i">www.mx-harz.de</mark></li>
+                    <li><a href="http://www.pixelio.de/details.php?image_id=302266" target="_blank">"Der Plansee (Tirol)"</a> photographed by <mark class="i">Werner B.</mark></li>
+                    <li><a href="http://www.pixelio.de/details.php?image_id=318894" target="_blank">"New York"</a> photographed by <mark class="i">Robert Babiak jun.</mark></li>
+                    <li><a href="http://www.pixelio.de/details.php?image_id=22367" target="_blank">"Seekajaker"</a> photographed by <mark class="i">Dietmar Meinert</mark></li>
+                </ul>
+                <h2>Font</h2>
+                <p>For the headlines I chooses the font <mark class="i">Brook 23</mark> (v2.0) designed by <mark class="i">Mgl23</mark>. With <a href="http://typeface.neocracy.org" target="_blank">Typeface.js</a> (v.0.15) I embed this font in my site.</p>
+                <h2>W3C Validation</h2>
+                <p><img src="images/logos/w3c_css.gif" alt="W3C - Valid CSS" width="88" height="31"></p>
+                <h4>Valid HTML5</h4>
+                <ul class="listLeft">
+                    <li><a href="http://validator.w3.org/check?uri=xennis.de;ss=1" target="_blank">index.html</a></li>
+                </ul>
+                <h4>Valid CSS3</h4>
+                <ul class="listLeft">
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://xennis.de/css/position.css&amp;profile=css3" target="_blank">position.css</a></li>
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://xennis.de/css/layout.css&amp;profile=css3" target="_blank">layout.css</a></li>
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://xennis.de/css/personal.css&amp;profile=css3" target="_blank">personal.css</a></li>
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://xennis.de/css/special_ie.css&amp;profile=css3" target="_blank">special_ie.css</a></li>
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://xennis.de/css/special_plugins.css&amp;profile=css3" target="_blank">special_plugins.css</a></li>
+                </ul>
+                <h4>Not valid CSS</h4>
+                <ul class="listLeft">
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://xennis.de/css/special.css" target="_blank">special.css</a></li>
+                </ul>
+            </div>
+        </article><!-- end article -->
+
+     	<!-- article "designer" -->
+        <article id="designer">
+            <menu class="typeface-js">
+                <li id="closeDesigner" title="Close">X</li>
+                <li id="sizeDesigner" title="Minimize">M</li>
+            </menu>
+            <h1>Designer</h1>
+            <div class="text">
+                <p>Hey, I am a student, who likes to visit and to write beautiful websites. Since 2010 I study at the <a href="http://www.uni-luebeck.de" target="_blank">University of Lübeck</a>, Germany.</p>
+                <p>Years ago - when I was a young boy - I created my first websites. After some years I stopped doing this. Some month ago I revived my old hobby and started again to write web designs. Here you can see the result :D This is my second web design, which I write for many years. I hope you like it!</p>
+                <ul class="listLogos">
+                    <li><img src="images/logos/html5.png" alt="HTML5 logo" title="HTML5" width="32" height="32"> <img src="images/logos/css3.png" alt="CSS3 logo" title="CSS3" width="33" height="30"></li>
+                    <li><a href="http://jquery.com" target="_blank"><img src="images/logos/jquery.png" alt="jQuery logo" title="jQuery" width="121" height="30"></a></li>
+                    <li><a href="http://jqueryui.com" target="_blank"><img src="images/logos/jquery_ui.png" alt="jQuery UI logo" title="jQuery UI" width="124" height="30"></a></li>
+                    <li><a href="http://joomla.org" target="_blank"><img src="images/logos/joomla.png" alt="Joomla logo" title="Joomla" width="124" height="25"></a></li>
+                    <li><a href="http://php.net" target="_blank"><img src="images/logos/php.png" alt="PHP logo" title="PHP" width="57" height="30"></a></li>
+                </ul>
+                <h2>Skills</h2>
+                <h4>Basic</h4>
+                <ul>
+                    <li>HTML (incl. HTML5)</li>
+                    <li>CSS (incl. CSS3)</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                </ul>
+                <h4>Advanced</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>Ajax frameworks: JavaScript library
+                        <ul>
+                            <li>jQuery & jQuery UI</li>
+                        </ul>
+                    </li>
+                    <li>Content management system
+                        <ul>
+                            <li>Joomla & Joomla-Templates</li>
+                        </ul>
+                    </li>
+                    <li>...</li>
+                </ul>
+            </div>        
+        </article><!-- end article -->
+
+        <!-- article "work" -->
+        <article id="work">
+            <menu class="typeface-js">
+                <li id="closeWork" title="Close">X</li>
+                <li id="sizeWork" title="Minimize">M</li>
+            </menu>
+            <h1>Work</h1>
+            <div class="text">
+                <p>More web designs will follow.</p>
+                <h2>Xennis - c4e</h2>
+                <ul class="listLeft">
+                    <li>Version 2.0</li>
+                    <li>Joomla-Template</li>
+                    <li>March 2011</li>
+                </ul>
+                <div id="wrap">
+                    <div id="small"><img src="images/work/c4e_small.png" alt="Xennis - c4e preview" width="500" height="260"></div>
+                    <div id="mover">
+                        <div id="overlay-thing"></div>
+                        <div id="large"><img src="images/work/c4e.png" alt="Xennis - c4e"></div>
+                    </div>
+                </div>
+                <h2>Xennis - c4e again</h2>
+                <ul class="listLeft">
+                    <li>Version 1.0</li>
+                    <li>Web design</li>
+                    <li>April 2011</li>
+                </ul>
+                <p><img src="images/work/c4e_again_small.png" alt="Xennis - c4e again preview" title="No zoom: I think you should know this design ;-)" width="500" height="274"></p>
+            </div>
+        </article><!-- end article -->
+
+        <!-- article "contacts" -->
+        <article id="contacts">
+            <menu class="typeface-js">
+                <li id="closeContacts" title="Close">X</li>
+                <li id="sizeContacts" title="Minimize">M</li>
+            </menu>
+            <h1>Contacts</h1>
+            <div class="text">
+                <p>Criticism? Accolade? Questions? Problems? ... ? Please write to me!
+                <h2>My E-mail</h2>
+                <p>contact[at]xennis.de</p>
+                <form id="contact" action="javascript:sendEmail();">
+                    <input
+                        type="checkbox"
+                        name="compatibility"> Compatibility mode (If your browser does not support 'placeholder' attribute)
+                    <input
+                        type="text"
+                        id="user_name"
+                        name="user_name"
+                        placeholder="Name"
+                        maxlength="50">
+                    <label for="user_name">(Name)</label>
+                    <input
+                        type="email"
+                        name="user_email"
+                        id="user_email"
+                        placeholder="E-Mail*"
+                        maxlength="50"
+                        required>
+                    <label for="user_email">(E-Mail*)</label>
+                    <input
+                        type="url"
+                        name="user_url"
+                        id="user_url"
+                        placeholder="Website"
+                        maxlength="50">
+                    <label for="user_url">(Website)</label>
+                    <textarea
+                        name="user_text"
+                        id="user_text"
+                        placeholder="Your message*"
+                        maxlength="1000"
+                        required></textarea>
+                    <label for="user_text">(Your message*)</label>
+                    <small>* required</small>
+                    <input
+                        type="submit"
+                        value="Send">
+                </form>
+            </div>
+        </article><!-- end article -->
+
+    </div><!-- end articles -->
+
+    <!-- footer -->
+    <footer>
+        <ul>
+            <li>Copyright 2011 by Fabi Rosenthal</li>
+            <li>Picture credits: &#169; <span id="photographer">Werner B.</span> - PIXELIO</li>
+        </ul>
+    </footer><!-- end footer -->
+
+    <!-- preload site -->
+    <script type="text/javascript">QueryLoader.init();</script>
+
+</body>
+
+</html>

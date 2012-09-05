@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+ * @author       Fabi Rosenthal
+ * @website      http://xennis.de
+ * @design       xennis_c4e
+ * @copyright    Copyright (C) 2011 Fabi Rosenthal
+ *
+ * @description  These properties do not conform to the css3 standard 
+ */
+
+/* #################### general #################### */
+#style menu#boxImage li {
+	border-radius:4px;
+}
+article,
+article ul.listLogos li {
+	border-radius:5px;
+}
+#style menu#boxColor li {
+	border-radius:10px;
+}
+
+/* #################### browser #################### */
+
+/* -------------------- webkit -------------------- */
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+    color:#ffffff;
+}
+form input:focus,
+form textarea:focus,
+article .text:focus {
+	outline:none;
+}

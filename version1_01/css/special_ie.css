@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*
+ * @author       Fabi Rosenthal
+ * @website      http://xennis.de
+ * @design       xennis_c4e
+ * @copyright    Copyright (C) 2011 Fabi Rosenthal
+ *
+ * @description  Internet Explorer only
+ */
+
+/* #################### general #################### */
+header nav ul li a,
+header #label,
+footer {
+	letter-spacing:0.15em;
+}
+form input,
+form textarea {
+	font-weight:lighter !important;
+}

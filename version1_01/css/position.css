@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*
+ * @author       Fabi Rosenthal
+ * @website      http://xennis.de
+ * @design       xennis_c4e
+ * @copyright    Copyright (C) 2011 Fabi Rosenthal
+ */
+
+/* #################### general #################### */
+body {
+	height:100% !important;
+	margin:0px;
+}
+body,
+header,
+header nav,
+footer {
+	width:100%;
+	min-width:750px;
+}
+body,
+#backgroundImage,
+header,
+header nav,
+#articles,
+article {
+	display:block;
+	overflow:hidden;
+}
+#backgroundImage {
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+}
+
+/* #################### header #################### */
+header #label {
+	padding:0px 5px 0px 8px;
+	float:right;
+	line-height:10px;
+}
+
+/* #################### style #################### */
+#style {
+	position:absolute;
+	top:200px;
+	right:0px;
+	width:60px;
+	max-width:60px;
+	padding:3px;
+}
+#style menu#boxImage li {
+	width:50px;
+	height:50px;
+	margin:5px;
+}
+#style menu#boxColor {
+	margin-left:1px;
+}
+#style menu#boxColor li {
+	width:10px;
+	height:10px;
+	float:left;
+	margin:2px;
+}
+
+/* #################### articles #################### */
+#articles {
+	position:absolute;
+	top:55px;
+	right:66px;
+	bottom:23px;
+	left:0px;
+}
+article {
+	position:absolute !important;
+	top:0px;
+	left:0px;
+	width:600px;
+	height:300px;
+	padding:6px 15px;
+}
+article menu {
+	position:absolute;
+	top:9px;
+	right:15px;
+}
+article .text {
+	position:absolute;
+	top:65px;
+	left:16px;
+	right:14px;
+	bottom:15px;
+	padding-right:5px;
+}
+
+/* #################### footer #################### */
+footer {
+	position:absolute;
+	bottom:0px;
+	height:23px;
+}
+footer li {
+	margin-top:5px;
+}

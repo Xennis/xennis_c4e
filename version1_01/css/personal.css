@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*
+ * @author       Fabi Rosenthal
+ * @website      http://xennis.de
+ * @design       xennis_c4e
+ * @copyright    Copyright (C) 2011 Fabi Rosenthal
+ */
+
+/* #################### general #################### */
+
+/* -------------------- font-family -------------------- */
+body {
+	font-family:Verdana, Geneva, sans-serif;
+}
+article h1,
+article h2,
+article menu li {
+	font-family:"Brook 23", Arial, Verdana, Geneva, sans-serif !important;
+	font-weight:normal !important;
+	font-style:normal !important;
+}
+
+/* -------------------- font-size -------------------- */
+article h1 {
+	font-size:30px;	
+}
+article h2 {
+	font-size:22px;
+}
+body,
+article h4,
+form input,
+form textarea {
+	font-size:14px;
+}
+header,
+footer,
+label,
+small,
+#style,
+article ul.listLeft {
+	font-size:10px;
+}
+
+/* -------------------- color -------------------- */
+/* blue */
+article a {
+	color:#09F;
+}
+header {
+	background-color:#09F;
+}
+article h1,
+footer ul li,
+form input[type=text],
+form input[type=email],
+form input[type=url],
+form textarea {
+	border-color:#09F;
+}
+/* white */
+body,
+header nav ul li a,
+mark,
+form input,
+form textarea {
+	color:#ffffff;
+}
+header nav ul li a span.over,
+form input[type=submit]:hover {
+	background:#ffffff;
+}
+/* grew */
+form input[type=submit] {
+	border-color:#999;
+}
+/* black */
+header nav ul li a span.over,
+form input[type=submit]:hover {
+	color:#000000;
+}
+header nav,
+header #label,
+#style,
+article,
+footer {
+	background-color:#000000;
+}
+/* red */
+.error {
+	color:#F00;
+}
+
+/* #################### style #################### */
+#style #image1 {
+	background:url(../images/background/preview1.gif) no-repeat center;
+}
+#style #image2 {
+	background:url(../images/background/preview2.gif) no-repeat center;
+}
+#style #image3 {
+	background:url(../images/background/preview3.gif) no-repeat center;
+}
+#style #image4 {
+	background:url(../images/background/preview4.gif) no-repeat center;
+}
+#style #color1 {
+	background-color:#09F;
+}
+#style #color2 {
+	background-color:#FF8000;
+}
+#style #color3 {
+	background-color:#008000;
+}
+#style #color4 {
+	background-color:#00C;
+}

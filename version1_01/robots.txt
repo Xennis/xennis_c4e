@@ -1,0 +1,5 @@
+# robots.txt for http://xennis.de
+
+User-agent: *
+Disallow: /css/
+Disallow: /scripts/
