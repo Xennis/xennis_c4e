@@ -77,7 +77,7 @@ header #label {
 }
 article {
 	position:absolute !important;
-	top:0px;
+	top:20px;
 	left:0px;
 	width:600px;
 	height:300px;

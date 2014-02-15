@@ -18,6 +18,12 @@ function changeZindex(article) {
 	$("article:visible").not(article).fadeTo("slow", "0.35");
 }
 
+jQuery.fn.centerHorizontal = function () {
+    this.css("position","absolute");
+    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+    return this;
+}
+
 $(document).ready(function(){
 
 	$("header nav").hide();
@@ -164,7 +170,7 @@ $(document).ready(function(){
 		containment: "#articles",
 		scroll: "false",
 		cancel: "menu, li, .text"
-	});
+	}).centerHorizontal();
 	
 	/* -------------------- foreground -------------------- */
 	var foregroundAll = "#home, #about, #designer, #work, #contacts";
