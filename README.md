@@ -2,6 +2,8 @@
 
 Modern web design with CSS3, HTML5 and jQuery.
 
+Current version: 1.01
+
 ### Used software and files
 
 JavaScript libaries
