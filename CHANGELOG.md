@@ -22,6 +22,6 @@
 * Fixed bug: script -> QueryLoader error (Opera)
 
 
-### v0.9 beta - 3 April 2011)
+### v0.9 beta - 3 April 2011
 
 * Init
