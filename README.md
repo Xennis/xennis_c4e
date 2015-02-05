@@ -2,7 +2,7 @@
 
 Modern web design with CSS3, HTML5 and jQuery.
 
-Current version: 1.01
+Current version: 1.0.1
 
 ### Used software and files
 
